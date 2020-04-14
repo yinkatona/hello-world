@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animal Trading Cards</title>
+	<style type="text/css">
+		#card{
+			height: 693px;
+			width: 350px;
+			border:2px black solid;
+			border-radius: 4px;
+			background-color: #9CB26B;
+			position: relative;
+			left: 450px;
+		}
+		#name{
+			color: #222223;
+			padding: 0px 10px;
+			text-align: center;
+			border: 1px black solid;
+			border-radius: 4px;
+			margin: 2px;
+		}
+		#picture{
+			border: 1px solid black;
+			margin: 2px;
+			padding: 15px;
+			border-radius:4px;
+			padding-right: 15px;
+			align-items: center;
+		}
+		#fact{
+			border: 1px solid black;
+			margin: 2px;
+			font-style: italic;
+			border-radius: 4px;
+			font-weight:bold;
+		}
+		.bold{
+			font-weight: bold;
+			font-size: 20px;
+			color: #F6E8E8;
+		}
+		#description{
+			border: 1px solid black;
+			margin: 2px;
+			text-align: left;
+		}
+		.span{
+
+		}
+
+	</style>
+</head>
+<body>
+	<section>
+		<div id="card">
+		<!-- your favorite animal's name goes here -->
+		<div id="name">
+		<h3>German Shepherd Dog (GSD)</h3>
+		</div>
+		<!-- your favorite animal's image goes here -->
+		<div id="picture">
+		<img src="german_shepherd.jpg" alt="Alsatian Dog">
+			<!-- your favorite animal's interesting fact goes here -->
+			<p class="bold"> <span class="color">Confidence, Courageous and Smart</span></p>
+			</div>
+			<div id="fact">
+			<ul>
+				<!-- your favorite animal's list items go here -->
+				<li><span>Origin</span>: Germany</li>
+				<li><span>Weight</span>: 22-33kg(Female); 30-40kg(Male)</li>
+				<li><span>Litter Size</span>: 4-9</li>
+				<li><span>Lifespan</span>: 9-13years</li>
+			</ul>
+			</div>
+			<dir id="description">
+			<!-- your favorite animal's description goes here -->
+			<p>Also known as Alsatian in Britain and other European countries, is one of the top 10 most populous breed in the US and probably the most recognised breed in the world. There are many reasons why GSD stand in the front rank of canine royalty, but their defining attribute is character: loyalty, courage, confidence, the ability to learn command for new task and the willingness to put self in line of defence for loved once. GSD will make a gentle family dog and steadfast guardian</p>
+			</dir>
+		</div>
+	</div>
+	</section>
+</body>
+</html>
+
+
+
+    <p id="text">Hello World ooo</p>
+    <button id="mybutton">change text</button>
+
+    <script type="text/javascript">
+        document.getElementById("mybutton").onclick=function () {
+            document.getElementById("text").innerHTML="Hello its just a lesson"
+        }
+    </script>
+    <p id="2para">This is the second paragraph...</p>
+    <button id="mybutton2">Append text!</button>
+    <script type="text/javascript">
+        document.getElementById("mybutton2").onclick= function () {
+            document.getElementById("2para").innerHTML= "I think"  +  document.getElementById("2para").innerHTML+ "and it can also change"
+            // body...
+        }
+    </script>
